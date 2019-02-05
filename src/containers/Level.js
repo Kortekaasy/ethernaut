@@ -47,14 +47,25 @@ class Level extends React.Component {
 
     const nextLevelId = findNextLevelId(this.props.level, this.props.levels)
 
+    let ctfFlag = null
+    if(constants.showCtfFlag && level.ctfFlag) {
+        ctfFlag = level.ctfFlag;
+    }
+
     return (
       <div className="page-container">
 
         <div className="page-header row">
           {/* TITLE + INFO */}
           <div className="level-title col-sm-6">
-            <h2 className="title no-margin">{level.name}</h2>
-            { levelCompleted === true && <span className='label label-default'>Level completed!</span>}
+              <h2 className="title no-margin">{level.name}</h2>
+              { levelCompleted === true &&
+              <div>
+                  <span className='label label-flag'>Unlocked flag:</span>
+                  <span className='label label-flag inner-label'>{ctfFlag}</span>
+              </div>
+              }
+              {/* { levelCompleted === false && <span className='label label-default'>Level completed!</span>}*/}
           </div>
           <div className="difficulty col-sm-6 right">
             <Difficulty level={parseInt(level.difficulty, 10)}/>

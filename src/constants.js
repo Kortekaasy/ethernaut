@@ -55,3 +55,6 @@ export const ACTIVE_NETWORK = NETWORKS.ROPSTEN
 // export const ACTIVE_NETWORK = NETWORKS.LOCAL
 // -----------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------
+
+// CTF flags
+export const showCtfFlag = true

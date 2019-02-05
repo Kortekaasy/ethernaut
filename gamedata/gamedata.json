@@ -13,7 +13,8 @@
       "deployFunds": 0,
       "deployId": "0",
       "instanceGas": 800000,
-      "author": "ajsantander"
+      "author": "ajsantander",
+      "ctfFlag": "flag placeholder"
     },
     {
       "name": "Fallback",
