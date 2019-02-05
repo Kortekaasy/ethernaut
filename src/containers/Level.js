@@ -65,7 +65,6 @@ class Level extends React.Component {
                   <span className='label label-flag inner-label'>{ctfFlag}</span>
               </div>
               }
-              {/* { levelCompleted === false && <span className='label label-default'>Level completed!</span>}*/}
           </div>
           <div className="difficulty col-sm-6 right">
             <Difficulty level={parseInt(level.difficulty, 10)}/>
