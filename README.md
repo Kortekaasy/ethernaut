@@ -1,3 +1,8 @@
+# Notes Aart
+- Edited Shop contracts to be more flexible with compiler
+- To deploy contracts you have to create a .env file with 'ROPSTEN_HOST=<host>'. Also see src/constants.js for how it's used.
+- Added flag displaying built by blockchain course project group
+
 # Ethernaut
 
 <p>Ethernaut is a Web3/Solidity based wargame inspired in <a href="https://overthewire.org" target="_blank" rel="noopener noreferred">overthewire.org</a>, to be played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked'.</p>

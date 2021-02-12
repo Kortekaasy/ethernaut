@@ -23,7 +23,7 @@ export default store => next => async action => {
     state.network.gasPrice
   )
   if(completed) {
-    console.victory(`@good Well done`, `You have completed this level!!!`)
+    console.victory(`@good Well done`, `The flag is under the title!`)
   }
   else {
     console.error(`

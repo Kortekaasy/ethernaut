@@ -40,11 +40,6 @@ class App extends React.Component {
           </div>
         </Sidebar>
 
-        {/* FOOTER */}
-        <footer className="footer navbar-fixed-bottom text-center text-muted">
-          <small>developed with <FontAwesome name="heart"/> and <FontAwesome name="flash"/> by the <a href="https://openzeppelin.com">OpenZeppelin</a> team</small>
-        </footer>
-
       </div>
     );
   }

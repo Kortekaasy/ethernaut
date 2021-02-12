@@ -30,14 +30,8 @@ class Header extends React.Component {
               <span className="sr-only">Toggle navigation</span>
             </button>
             <div className="navbar-brand" style={{paddingTop: '0', paddingBottom: '0', paddingLeft: '25px', lineHeight: '49px'}}>
-              <span>
-                <a href="https://openzeppelin.com" target="_blank" rel="noopener noreferred">
-                  <img style={{width: '40px', height: '40px'}} src='../../imgs/openzeppelin-logo.svg' alt='OpenZeppelin'/>
-                </a>
-              </span>
-              &nbsp;
               <Link to={constants.PATH_ROOT}  style={{ textDecoration: 'none' }} activeStyle={{display: 'inline-block', verticalAlign: 'text-top', lineHeight: '22px'}}>
-                <span style={{}}>Ethernaut</span>
+                <span style={{}}>Ethereum puzzles</span>
               </Link>
             </div>
           </div>
